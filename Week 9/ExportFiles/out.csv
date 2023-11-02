@@ -1,0 +1,4 @@
+#TYPE System.String
+"PSPath","PSParentPath","PSChildName","PSDrive","PSProvider","PSIsContainer","Length"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\CSI230-01\Week9\Lab1.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\CSI230-01\Week9","Lab1.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","8"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\CSI230-01\Week9\Processes.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\CSI230-01\Week9","Processes.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","13"
