@@ -27,7 +27,7 @@ for($j=0; $j -le $files.Length; $j++){
 Write-Host $files
 
 Get-ChildItem -File -Recurse | where {$_.CreationTime -ge "10/24/2023 00:00:00"} | Select-Object Name, CreationTime | `
-Export-Csv -Path "C:\Users\champuser\CSI230-01JW\Week_9\processManagemetfiles.csv" -NoTypeInformation
+Export-Csv -Path "C:\Users\champuser\CSI230-01JW\Week_9\processManagemetFiles.csv" -NoTypeInformation
 
 if (!(Get-Process -ProcessName chrome -ErrorAction SilentlyContinue)) {
     Start-Process -FilePath "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList 'http://www.Champlain.edu'
