@@ -13,7 +13,7 @@ Get-Process | ForEach-Object{
 Get-Process | Select-Object Name, Path | where {$_.Path -notlike "C:\Windows\System32\*"}
 
 Get-Service | Where-Object {$_.Status -eq "Stopped"} | Sort-Object | `
-Export-Csv -Path "C:\Users\champuser\CSI230-01JW\Week_9\processManagemetStop.csv"
+Export-Csv -Path "C:\Users\champuser\CSI230-01JW\Week_9\managemetStop.csv"
 
 cd "C:\Users\champuser\CSI230-01JW\Week_9"
 
